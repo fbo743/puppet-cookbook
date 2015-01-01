@@ -9,7 +9,7 @@ class puppet {
     mode => '0755',
   }
   file { '/home/fbo/.ssh/id_rsa':
-    source => 'puppet:///modules/puppet/fbo.priv',
+    source => 'puppet:///modules/puppet/id_rsa',
     owner => 'fbo',
     mode => '0600',
   }
